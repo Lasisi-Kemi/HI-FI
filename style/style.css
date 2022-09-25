@@ -83,6 +83,8 @@
 .bg-pic {
     background-image: linear-gradient(rgba(30, 30, 30, 0.64), rgba(30, 30, 30, 0.64)), url(../image/Rectangle\ 12.png);
     height: 538px;
+    margin: 64px 0px;
+    position: relative;
 }
 
 .bg-info {
@@ -115,6 +117,7 @@
 
 .btn {
     text-align: center;
+    padding-bottom: 0.68px;
 }
 
 .btn button {
@@ -128,4 +131,136 @@
     letter-spacing: 0em;
     border: none;
     border-radius: 6px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 1);
+    border: 0.2px solid #D9D9D9;
+   
+}
+
+.rate_competion {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.rate_competion p {
+    margin: 42px 22px 0px 21px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+.container input[type="checkbox"] {
+    -moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	outline: none;
+	content: none;
+
+
+}
+
+.container input[type=checkbox]:before {
+	font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 15px;
+    color: transparent !important;
+    background: transparent;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(238, 138, 20, 1);
+    margin-right: 7px;
+}
+
+.container input[type=checkbox]:checked:before {
+
+	color:rgba(238, 138, 20, 1) !important;
+}
+
+
+.file {
+    margin: 30px 30px 42px 21px;
+}
+
+
+
+progress {
+    background-color: rgba(238, 138, 20, 0.24);
+    height: 5px;
+    accent-color: rgba(238, 138, 20, 1);
+    -webkit-appearance: none;
+    border-radius: 6px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgba(238, 138, 20, 0.24); 
+    border-radius: 6px;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgba(238, 138, 20, 1);
+    border-radius: 6px;
+    height: 5px;
+}
+
+/* For Firefox */
+progress::-moz-progress-bar {
+    background-color: rgba(238, 138, 20, 1);
+    border-radius: 6px;
+    height: 5px;
+}
+
+.download {
+    padding: 0;
+    margin: 0;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+}
+
+.text {
+    padding: 23px 27px 0px 31px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+.clients {
+    position: relative; 
+    width: 141px; 
+    margin: 28px 55px 23px 31px;
+}
+
+.image1 {
+    position: relative;
+}
+
+.image2 {
+    position: absolute;
+    left: 22px;
+}
+
+.image3{
+    position: absolute;
+    left: 44px;
+}
+
+.image4{
+    position: absolute; 
+    left: 66px;
+}
+
+.image5{
+    position: absolute;
+    left: 88px;
 }
